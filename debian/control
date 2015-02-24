@@ -1,0 +1,15 @@
+Source: vyos-ipsec-dummy
+Section: misc
+Priority: optional
+Maintainer: Jeff Leung <jleung@v10networks.ca>
+Build-Depends: debhelper (>= 4)
+Standards-Version: 3.6.2
+
+Package: vyos-ipsec-dummy
+Architecture: all
+Provides: vyatta-ipsec
+Description: Dummy package that provides vyatta-ipsec for VyOS
+ In order to use the strongSwan upstream from Debian's wheezy-backports or strongSwan's
+ upstream package, we create a dummy package that satisifies the vyatta-ipsec dependency
+ for vyatta-{cfg,op}-vpn
+ .

@@ -1,0 +1,5 @@
+vyos-ipsec-dummy (1.0) unstable; urgency=low
+
+  * First version
+
+ -- Jeff Leung <jleung@v10networks.ca>  Tue, 24 Feb 2015 00:46:00 -0800
